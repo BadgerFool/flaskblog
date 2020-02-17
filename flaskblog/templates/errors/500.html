@@ -1,0 +1,8 @@
+{% extends "layout.html" %}
+{% block content %}
+    <div class="content-section">
+        <h1>Something went wrong (500)</h1>
+        <p>Seriously no idea what happened there, maybe try again later? ¯\_(ツ)_/¯</p>
+        <a href="{{ url_for('main.home') }}">Home</a>
+    </div>
+{% endblock content %}
